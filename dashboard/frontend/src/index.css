@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --14-font: 14px;
+  --16-font: 16px;
+  --20-font: 20px;
+  --24-font: 24px;
+  --32-font: 32px;
+  --36-font: 36px;
+  --48-font: 48px;
+  --primary-color: #40cef9;
+  --primary-color-variant: #eefcff;
+  --secundary-color: #4bc313;
+  --secundary-color-variant: #e5ffe1;
+  --terceary-color: #e54646;
+  --terceary-color-variant: #feefee;
+  --quaternary-color: #d4a003;
+  --quaternary-color-variant: #ffebad;
+  --primary-dark-color: #202020;
+  --secundary-dark-color: #4a4a4a;
+  --terceary-dark-color: #ebebeb;
+  --primary-light-color: #ffffff;
+  --secundary-light-color: #F8F8F9;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-weight: 500;
+  color: var(--primary-dark-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+html,
+small {
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--secundary-dark-color);
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: var(--primary-dark-color);
+  font-size: var(--36-font);
+}
+
+h4 {
+  font-size: var(--32-font);
+}
+
+p {
+  font-size: var(--14-font);
+}
+
+a {
+  font-size: var(--14-font);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: var(--primary-dark-color);
+  text-decoration: none;
+}
+
+label {
+  width: fit-content;
+  font-size: var(--14-font);
+  margin-bottom: 4px;
+  cursor: pointer;
+  color: var(--primary-dark-color);
+}
+
+input,
+select {
+  width: 100%;
+  max-width: 540px;
+  height: 45.875px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 6px;
+  background-color: var(--terceary-dark-color);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: var(--14-font);
+  font-weight: 500;
+  color: var(--secundary-dark-color);
+  cursor: pointer;
+}
+
+button {
+  height: 45.875px;
+  width: fit-content;
+  padding: 10px 42px;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
